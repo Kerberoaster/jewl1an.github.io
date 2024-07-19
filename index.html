@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verein Lajjjk's</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#events">Veranstaltungen</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="logo-container">
+            <img src="logo.png" alt="LAJJJKS Logo" class="logo">
+        </div>
+        <div class="content">
+            <p class="highlight">Der Verein für Jugendkultur in Arbon</p>
+            <p>Wir fördern die Jugendkultur und schaffen Raum für Kreativität und Gemeinschaft.</p>
+        </div>
+        <div class="bubble">
+            <p>Wir sind auf der Suche nach einem Raum für unseren Verein! <a href="#contact">Kontaktieren Sie uns</a></p>
+        </div>
+        <div class="bubbles">
+            <span class="emoji">🎉</span>
+            <span class="emoji">🎈</span>
+            <span class="emoji">🥳</span>
+            <span class="emoji">🎶</span>
+            <span class="emoji">🎨</span>
+            <span class="emoji">🏆</span>
+            <span class="emoji">🎭</span>
+            <span class="emoji">📚</span>
+            <span class="emoji">🤹</span>
+            <span class="emoji">🎤</span>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Über uns</h2>
+        <p>Der Verein Lajjjk's ist ein politisch und konfessionell neutraler Verein, der die Jugendkultur in Arbon fördert. Unser Ziel ist es, junge Menschen zu inspirieren, ihre Kreativität auszuleben und eine lebendige Gemeinschaft zu schaffen. Wir organisieren regelmäßig Veranstaltungen, Workshops und Projekte, die den kulturellen Austausch und das soziale Engagement fördern.</p>
+        <p>Unsere Vision ist es, ein integraler Bestandteil der Gemeinschaft zu sein und einen positiven Einfluss auf das Leben der Jugendlichen zu nehmen. Durch die Zusammenarbeit mit Schulen, lokalen Behörden und anderen Organisationen bieten wir eine Plattform für junge Menschen, um ihre Talente zu entdecken und weiterzuentwickeln. Wir setzen uns dafür ein, dass jede Stimme gehört wird und jeder die Möglichkeit hat, aktiv am Gemeinschaftsleben teilzunehmen.</p>
+        <div class="team">
+            <div class="member">
+                <h3>Lara dP.</h3>
+                <p>Bereich Kommunikation</p>
+            </div>
+            <div class="member">
+                <h3>Andrin H.</h3>
+                <p>Vizepräsident</p>
+            </div>
+            <div class="member">
+                <h3>Julian N.</h3>
+                <p>Bereich IT / Technik</p>
+            </div>
+            <div class="member">
+                <h3>Severin O.</h3>
+                <p>Bereich Logistik</p>
+            </div>
+            <div class="member">
+                <h3>Janis K.</h3>
+                <p>Kassier</p>
+            </div>
+            <div class="member">
+                <h3>Kim T.</h3>
+                <p>Präsident</p>
+            </div>
+            <div class="member">
+                <h3>Janis D.</h3>
+                <p>Aktuar</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="events">
+        <h2>Veranstaltungen</h2>
+        <div class="event">
+            <h3>Seenachtsfest</h3>
+            <p>Datum: 6. Juli 2024</p>
+            <p>Ort: Seeufer Arbon</p>
+            <p>Das Seenachtsfest ist ein spektakuläres Event direkt am Bodensee. Freuen Sie sich auf ein Feuerwerk, Livemusik und viele weitere Attraktionen.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form id="contact-form" action="https://formspree.io/f/xanwylnb" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Senden</button>
+        </form>
+    </section>
+
+    <footer>
+        <p><a href="impressum.html">Impressum</a></p>
+    </footer>
+</body>
+</html>
